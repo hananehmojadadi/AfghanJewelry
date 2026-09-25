@@ -10,19 +10,19 @@ A responsive e-commerce website for Afghan jewelry, built with HTML, CSS, and Ja
 
 ### Home Page
 
-![AfghanJewelry Home Page](images/screenshot-home.png)
+![AfghanJewelry Home Page](images/home.png)
 
 ### Shop
 
-![AfghanJewelry Shop](images/screenshot-shop.png)
+![AfghanJewelry Shop](images/Shop.png)
 
 ### Shopping Cart
 
-![AfghanJewelry Shopping Cart](images/screenshot-cart.png)
+![AfghanJewelry Shopping Cart](images/ShoppingCart.png)
 
 ### Checkout
 
-![AfghanJewelry Checkout](images/screenshot-checkout.png)
+![AfghanJewelry Checkout](images/Checkout.png)
 
 ---
 
