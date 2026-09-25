@@ -4,7 +4,7 @@ A responsive e-commerce website for Afghan jewelry, built with HTML, CSS, and Ja
 
 ## Live Demo
 
-[View AfghanJewelry](YOUR-LIVE-LINK-HERE)
+[View AfghanJewelry](https://afghan-jewelry.netlify.app/)
 
 ## Project Preview
 
