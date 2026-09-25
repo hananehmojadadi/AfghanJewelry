@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>All Jewelry | Afghan Jewelry</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+<!-- HEADER  -->
+
+    <header class="header">
+
+        <div class="nav">
+
+            <a
+                href="index.html#home"
+                class="logo"
+            >
+                Afghan<span>Jewelry</span>
+            </a>
+
+            <nav class="nav-links">
+
+                <a href="index.html#home">
+                    Home
+                </a>
+
+                <a href="index.html#shop">
+                    Shop
+                </a>
+
+                <a href="index.html#story">
+                    Our Story
+                </a>
+
+                <a href="index.html#contact">
+                    Contact
+                </a>
+
+            </nav>
+
+            <button
+                class="cart-button"
+                id="cartButton"
+            >
+                Cart
+                <span id="cartCount">0</span>
+            </button>
+
+        </div>
+
+    </header>
+
+
+ <!-- ALL JEWELRY -->
+
+    <section class="shop">
+
+        <div class="shop-top">
+
+            <div>
+
+                <p class="small-title">
+                    Our Collection
+                </p>
+
+                <h2>
+                    All Afghan Jewelry
+                </h2>
+
+            </div>
+
+
+            <!-- SEARCH -->
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search jewelry..."
+                >
+
+            </div>
+
+        </div>
+
+
+        <!-- CATEGORY BUTTONS -->
+
+        <div class="category-buttons">
+
+            <button
+                class="category-button active"
+                data-category="All"
+            >
+                All
+            </button>
+
+            <button
+                class="category-button"
+                data-category="Necklace"
+            >
+                Necklaces
+            </button>
+
+            <button
+                class="category-button"
+                data-category="Earrings"
+            >
+                Earrings
+            </button>
+
+            <button
+                class="category-button"
+                data-category="Bracelet"
+            >
+                Bracelets
+            </button>
+
+            <button
+                class="category-button"
+                data-category="Ring"
+            >
+                Rings
+            </button>
+
+        </div>
+
+
+        <!-- RESULT -->
+
+        <p
+            class="product-result"
+            id="productResult"
+        >
+            Showing 12 products
+        </p>
+
+
+        <!-- ALL PRODUCTS -->
+
+        <div
+            class="product-grid"
+            id="allProductsContainer"
+        >
+            <!-- Products come from jewelry.js -->
+        </div>
+
+    </section>
+
+
+<!-- CART -->
+
+    <div
+        class="cart-overlay"
+        id="overlay"
+    ></div>
+
+
+    <aside
+        class="cart-panel"
+        id="cartPanel"
+    >
+
+        <div class="cart-header">
+
+            <div>
+
+                <p class="small-title">
+                    Shopping
+                </p>
+
+                <h2>
+                    Your Cart
+                </h2>
+
+            </div>
+
+
+            <button
+                id="closeCart"
+                class="close-cart"
+            >
+                ×
+            </button>
+
+        </div>
+
+
+        <div
+            id="cartContainer"
+            class="cart-items"
+        >
+            <!-- Cart items -->
+        </div>
+
+
+        <div class="cart-bottom">
+
+            <div class="cart-total">
+
+                <span>
+                    Total
+                </span>
+
+                <strong>
+                    $<span id="cartTotal">0.00</span>
+                </strong>
+
+            </div>
+
+
+            <button
+                id="checkoutButton"
+                class="checkout-button"
+            >
+                Continue to Checkout
+            </button>
+
+        </div>
+
+    </aside>
+
+
+    <div
+        id="toast"
+        class="toast"
+    ></div>
+
+ <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div>
+
+                <a
+                    href="#home"
+                    class="logo footer-logo"
+                >
+                    Afghan<span>Jewelry</span>
+                </a>
+
+                <p>
+                    Inspired by Afghan culture,
+                    tradition, and craftsmanship.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Shop
+                </h4>
+
+                <a href="#shop">
+                    Collection
+                </a>
+
+                <a href="#shop">
+                    Necklaces
+                </a>
+
+                <a href="#shop">
+                    Earrings
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Company
+                </h4>
+
+                <a href="#story">
+                    Our Story
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 AfghanJewelry. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="jewelry.js"></script>
+
+</body>
+
+</html>
