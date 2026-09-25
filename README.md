@@ -24,7 +24,6 @@ A responsive e-commerce website for Afghan jewelry, built with HTML, CSS, and Ja
 
 ![AfghanJewelry Checkout](images/Checkout.png)
 
----
 
 ## About the Project
 
