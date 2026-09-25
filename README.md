@@ -66,6 +66,8 @@ AfghanJewelry/
 ├── script.js
 ├── checkout.html
 ├── checkout.js
+├── jewelry.html
+├── jewelry.js
 │
 └── images/
     ├── hero.png
