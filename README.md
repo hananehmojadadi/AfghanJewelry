@@ -18,7 +18,7 @@ A responsive e-commerce website for Afghan jewelry, built with HTML, CSS, and Ja
 
 ### Shopping Cart
 
-![AfghanJewelry Shopping Cart](images/Shopping Cart.png)
+![AfghanJewelry Shopping Cart](images/ShoppingCart.png)
 
 ### Checkout
 
